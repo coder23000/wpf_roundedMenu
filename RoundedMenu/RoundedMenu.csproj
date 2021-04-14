@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Icons\calendar-outline.png" />
+    <None Remove="Icons\cart-outline.png" />
+    <None Remove="Icons\image-outline.png" />
+    <None Remove="Icons\person-outline.png" />
+    <None Remove="Icons\power-outline.png" />
+    <None Remove="Icons\settings-outline.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\calendar-outline.png" />
+    <Resource Include="Icons\cart-outline.png" />
+    <Resource Include="Icons\image-outline.png" />
+    <Resource Include="Icons\person-outline.png" />
+    <Resource Include="Icons\power-outline.png" />
+    <Resource Include="Icons\settings-outline.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\fontawesome-webfont.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\fontawesome-webfont.ttf" />
+  </ItemGroup>
+
+</Project>
